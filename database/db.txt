@@ -1,0 +1,97 @@
+users:
+	-id
+	-username
+	-address
+	-phone
+	-mail
+	-user_type
+	-password
+
+
+animal:
+	-id
+	-uid
+	-donator_mail
+	-name
+	-age
+	-health
+	-type
+	-gender
+	-picture
+
+adopted:
+	-id
+	-uid
+	-donator_mail
+	-adopted_username
+	-name
+	-age
+	-health
+	-type
+	-gender
+	-picture
+	-location
+
+
+donator:
+
+
+medicine:
+	-id
+	-uid
+	-medicine_name
+	-medicine_type
+	-medicine_description
+	-medicine_batch_no
+	-medicine_expire_date
+	-medicine_price
+	-category [store]
+	
+
+food:
+	-id
+	-uid
+	-food_name
+	-food_type
+	-food_description
+	-food_expire_date
+	-food_batch_no
+	-food_price
+	-category [store]
+
+
+
+admin_info:
+	-id
+	-name
+	-email
+	-contact
+	-username
+	-password
+
+
+cart:
+	-id
+	-pd_uid
+	-pd_name
+	-pd_type
+	-pd_description
+	-pd_expire_date
+	-pd_batch_no
+	-pd_price
+	-pd_quantity
+	-buyer_name
+	-buyer_email
+
+orders:
+	-id
+	-uid
+	-pd_name
+	-pd_type
+	-pd_description
+	-pd_expire_date
+	-pd_batch_no
+	-pd_price
+	-pd_quantity
+	-buyer_name
+	-buyer_email
